@@ -1,5 +1,5 @@
 package br.fai.collections;
 
-public class Gato {
+public class Gato extends Animal {
 
 }
