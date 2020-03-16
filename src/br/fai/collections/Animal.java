@@ -3,15 +3,16 @@ package br.fai.collections;
 public abstract class Animal {
 
 	public void som() {
-		System.out.println("Este é o som padrão de animal: zzzzz");
+		System.out.print("Este é o som padrão de animal: ");
 	}
 
 	public void dizerMeuNome() {
-		System.out.println("O nome do animal é: XXX");
+		System.out.println("O nome do animal é: " + getNome());
+		dizerMinhaIdade();
 	}
 
 	private void dizerMinhaIdade() {
-		System.out.println("Minha idade é: XXX");
+		System.out.println("Minha idade é: " + getIdade());
 	}
 
 	public String getCor() {
